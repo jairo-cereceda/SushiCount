@@ -29,9 +29,17 @@ export default function HTML({ children }: PropsWithChildren) {
         <style
           dangerouslySetInnerHTML={{
             __html: `
-          /* Esto sustituye al ScrollViewStyleReset y evita errores de TS */
-          body, #root, #__next { height: 100vh; width: 100vw; overflow: hidden; }
-        `,
+              html, body, #root {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                background-color: #F6F1EB;
+              }
+              #root {
+                display: flex;
+                flex-direction: column;
+              }
+            `,
           }}
         />
       </head>
