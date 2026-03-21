@@ -6,7 +6,7 @@ import { t } from "@/localization";
 export default function TabLayout() {
   return (
     <Tabs
-      screenOptions={{ headerShown: false }}
+      screenOptions={{ headerShown: false, title: "SushiCount" }}
       tabBar={(props) => <BottomTabBar {...props} />}
     >
       <Tabs.Screen name="index" options={{ title: t("app.tab.home") }} />
