@@ -160,7 +160,11 @@ export default function SessionDetailScreen() {
               </View>
               <View style={styles.imageFrame}>
                 {item.imageUri ? (
-                  <Image source={{ uri: item.imageUri }} style={styles.image} contentFit="cover" />
+                  <Image
+                    source={{ uri: item.imageUri }}
+                    style={styles.image}
+                    contentFit="cover"
+                  />
                 ) : (
                   <View style={styles.imagePlaceholder}>
                     <Text style={styles.imageText}>{t("image.noImage")}</Text>
