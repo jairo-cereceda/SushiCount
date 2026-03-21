@@ -8,7 +8,7 @@ import { colors } from "@/styles/tokens";
 export default function RootLayout() {
   return (
     <ThemeProvider value={DefaultTheme}>
-      <Stack screenOptions={{ headerShown: false }}>
+      <Stack screenOptions={{ headerShown: false, title: "SushiCount" }}>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
       </Stack>
       <StatusBar style="dark" backgroundColor={colors.background} />

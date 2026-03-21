@@ -16,7 +16,6 @@ export default function HTML({ children }: PropsWithChildren) {
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-title" content="SushiCount" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <title>SushiCount</title>
 
         <script
           dangerouslySetInnerHTML={{
