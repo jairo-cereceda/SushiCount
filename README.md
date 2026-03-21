@@ -37,9 +37,14 @@ It is built with **React Native** and designed to run on **Android, iOS, and web
 ├── app/ # React Native pages and routes
 ├── assets/ # Images, fonts, icons
 ├── components/ # Reusable UI components
+├── localization/ # Translation files and localization
+├── services/ # API calls and backend integration
+├── styles/ # Global styles and theming
+├── types/ # TypeScript types and interfaces
+├── utils/ # Utility functions
 ├── package.json # Project dependencies and scripts
 ├── tsconfig.json # TypeScript configuration
-└── README.md
+└── README.md # Project documentation
 ```
 
 ---
