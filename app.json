@@ -28,6 +28,7 @@
       "output": "static",
       "favicon": "./assets/images/favicon.png",
       "name": "SushiCount",
+      "bundler": "metro",
       "shortName": "SushiCount",
       "display": "standalone",
       "themeColor": "#F6F1EB",
